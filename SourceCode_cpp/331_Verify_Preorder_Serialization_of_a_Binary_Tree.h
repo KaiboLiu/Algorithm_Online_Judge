@@ -18,6 +18,7 @@ Example 3:
 Return false
 */
 
+
     bool isValidSerialization(string preorder) {
 
         int pos_s=-1,pos_e,l=preorder.size();   //pos_s和pos_e均为前一个和后一个逗号的位置
