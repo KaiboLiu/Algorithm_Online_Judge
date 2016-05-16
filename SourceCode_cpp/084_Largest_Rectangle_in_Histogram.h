@@ -9,10 +9,10 @@
  
 //给一些并排直方图的高，求出最大的单独矩形面积
 //用一个栈存递增高度的索引，0入栈，题目数组尾部加个0。维护这个栈，从1开始遍历i，当h[i]遇到比h[栈顶元素]小，出栈，计算当前面积，出栈，直到h[i]比栈顶大，i入栈。
-
+//真是巧妙，复杂度O(2*n)
 
     int largestRectangleArea(vector<int>& heights) {
-        heighs.push_back(0);
+        heights.push_back(0);
         int l = heights.size(),t;
 		int ans = 0;
 		if (l == 1) return 0;
