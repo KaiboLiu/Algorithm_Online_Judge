@@ -1,3 +1,12 @@
+//350_Intersection_of_Two_Arrays_II
+//[E]
+//8ms
+
+//Given two arrays, write a function to compute their intersection.Each element in the result must be unique.
+
+//用2 point方法，先把2个数组排序，i和j分别指向2个数组，while循环，哪个元素小就++，当元素相等时，ans数组push一个，i和j各自++，复杂度O(m+n)
+
+
 
 class Solution {
 public:
