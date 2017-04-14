@@ -27,10 +27,11 @@
 int main(){
     cout<<"038_Count and Say:Input n, return the generate the nth Count and Say sequence."<<endl;
     int n;
+    string res;
     cin>>n;
     while(n >0){
-        
-        cout<<countAndSay(n).size()<<endl;
+        res = countAndSay(n);
+        cout<<res.size()<<' '<<res<<endl;
         cin>>n;
     }
     

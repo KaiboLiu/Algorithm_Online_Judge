@@ -1,6 +1,6 @@
-./Debug/up_up_LeetCode_000_main.cpp.o: ../../LeetCode/000_main.cpp \
-  headfile.h ../../LeetCode/038_Count_and_Say.h
+Debug/up_up_LeetCode_000_main.cpp.o: ../../LeetCode/000_main.cpp \
+ ../../LeetCode/headfile.h ../../LeetCode/461_Hamming_Distance.h
 
-headfile.h:
+../../LeetCode/headfile.h:
 
-../../LeetCode/038_Count_and_Say.h:
+../../LeetCode/461_Hamming_Distance.h:

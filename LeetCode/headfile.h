@@ -54,7 +54,7 @@
 #include <new>      //动态内存分配
 #include <numeric>      //STL常用的数字操作
 #include <iomanip>      //参数化输入／输出
-#include <iOS>      //基本输入／输出支持
+#include <ios>      //基本输入／输出支持
 #include <iosfwd>      //输入／输出系统使用的前置声明
 #include <iostream>      //数据流输入／输出
 #include <istream>      //基本输入流
