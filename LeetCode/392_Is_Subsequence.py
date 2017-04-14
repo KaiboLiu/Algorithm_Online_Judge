@@ -1,9 +1,11 @@
 # -*- coding: utf-8 -*-
 
 #LeetCode - 392_Is_Subsequence.py
-#ms  %
+#192ms  74.79%
 
 '''
+Total Accepted: 28263
+Total Submissions: 63778
 Instruction: LeetCode 392 - Is Subsequence - [M]
 Developer: lrushx
 Process Time: Apr 13, 2017
@@ -26,7 +28,10 @@ Follow up:
 If there are lots of incoming S, say S1, S2, ... , Sk where k >= 1B, and you want to check one by one to see if T has its subsequence. In this scenario, how would you change your code?
 '''
 
-#
+#判断s是否为t的子串，可以不连续
+#2个位置向后判断，复杂度O(mn)，range改成xrange，时间从682ms到192ms
+
+
 
 class Solution(object):
     def isSubsequence(s, t):

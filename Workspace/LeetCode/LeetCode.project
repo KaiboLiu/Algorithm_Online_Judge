@@ -97,5 +97,6 @@
     <File Name="../../LeetCode/headfile.h"/>
     <File Name="../../LeetCode/543_Diameter_of_Binary_Tree.h"/>
     <File Name="../../LeetCode/461_Hamming_Distance.h"/>
+    <File Name="../../LeetCode/392_Is_Subsequence.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
