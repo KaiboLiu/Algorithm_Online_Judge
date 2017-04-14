@@ -1,10 +1,12 @@
+# -*- coding: utf-8 -*-
+
 #LeetCode - 015_3Sum.py
 #198ms	72.60%
 
 '''
-Instruction：LeetCode 015 - 3Sum - [M]
-Developer：lrushx
-Process Time：Nov 18, 2016
+Instruction: LeetCode 015 - 3Sum - [M]
+Developer: lrushx
+Process Time: Nov 18, 2016
 '''
  
 '''

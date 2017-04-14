@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 #LeetCode - 500_Keyboard_Row.py
 #45ms    56.48%
 

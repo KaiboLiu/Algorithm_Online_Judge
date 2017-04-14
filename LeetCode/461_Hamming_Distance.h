@@ -1,4 +1,3 @@
-
 //LeetCode - 461_Hamming_Distance.h
 //3ms	99.51%
 
