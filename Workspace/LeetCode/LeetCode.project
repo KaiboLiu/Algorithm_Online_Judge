@@ -93,6 +93,8 @@
     </Configuration>
   </Settings>
   <VirtualDirectory Name="src">
-    <File Name="main.cpp"/>
+    <File Name="../../LeetCode/000_main.cpp"/>
+    <File Name="../../LeetCode/038_Count_and_Say.h"/>
+    <File Name="../../LeetCode/headfile.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
