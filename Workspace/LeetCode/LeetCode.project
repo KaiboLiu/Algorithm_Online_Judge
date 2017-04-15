@@ -101,5 +101,8 @@
     <File Name="../../LeetCode/523_Continuous_Subarray_Sum.h"/>
     <File Name="../../LeetCode/078_Subsets.h"/>
     <File Name="../../LeetCode/413_Arithmetic_Slices.h"/>
+    <File Name="../../LeetCode/456_132_Pattern.h"/>
+    <File Name="../../LeetCode/357_Count_Numbers_with_Unique_Digits.h"/>
+    <File Name="../../LeetCode/486_Predict_the_Winner.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
