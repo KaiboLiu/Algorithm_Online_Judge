@@ -100,5 +100,6 @@
     <File Name="../../LeetCode/392_Is_Subsequence.h"/>
     <File Name="../../LeetCode/523_Continuous_Subarray_Sum.h"/>
     <File Name="../../LeetCode/078_Subsets.h"/>
+    <File Name="../../LeetCode/413_Arithmetic_Slices.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
