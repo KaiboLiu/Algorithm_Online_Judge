@@ -60,7 +60,7 @@ You may assume the sum of all the numbers is in the range of a signed 32-bit int
             }
         
         int j;
-        if (k >= s[l/3]){
+        if (k >= s[l/2]){
             j = bisearch(s,k);
             if (j == 0) j++;
         } else j=1;
