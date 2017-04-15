@@ -1,5 +1,5 @@
 //LeetCode - 523_Continuous_Subarray_Sum.h
-//ms  %
+//35ms  62.66%
 
 /*
 Instruction: LeetCode 523 - Continuous Subarray Sum - [M]
