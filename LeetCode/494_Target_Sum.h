@@ -4,7 +4,7 @@
 //[DP2] 3ms     100%
 
 /*
-Instruction: LeetCode 486 - Predict the Winner - [M]
+Instruction: LeetCode 494 - Target Sum - [M]
 Developer: lrushx
 Process Time: Apr 14, 2017 [DFS]
               Apr 19, 2017 [DP]
