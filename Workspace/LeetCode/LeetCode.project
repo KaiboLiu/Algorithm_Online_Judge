@@ -104,5 +104,6 @@
     <File Name="../../LeetCode/456_132_Pattern.h"/>
     <File Name="../../LeetCode/357_Count_Numbers_with_Unique_Digits.h"/>
     <File Name="../../LeetCode/486_Predict_the_Winner.h"/>
+    <File Name="../../LeetCode/494_Target_Sum.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
