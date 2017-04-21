@@ -2,6 +2,8 @@
 //0ms     100%
 
 /*
+Total Accepted: 32036
+Total Submissions: 76877
 Instruction: LeetCode 377 - Combination Sum IV - [M]
 Developer: lrushx
 Process Time: Apr 20, 2017
