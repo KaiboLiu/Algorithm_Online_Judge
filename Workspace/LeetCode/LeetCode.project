@@ -106,5 +106,8 @@
     <File Name="../../LeetCode/486_Predict_the_Winner.h"/>
     <File Name="../../LeetCode/494_Target_Sum.h"/>
     <File Name="../../LeetCode/312_Burst_Balloons.h"/>
+    <File Name="../../LeetCode/377_Combination_Sum_IV.h"/>
+    <File Name="../../LeetCode/474_Ones_and_Zeroes.h"/>
+    <File Name="../../LeetCode/516_Longest_Palindromic_Subsequence.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
