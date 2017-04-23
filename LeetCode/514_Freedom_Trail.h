@@ -21,10 +21,10 @@ If the character key[i] has been aligned at the 12:00 direction, you need to pre
 */
 
 //给一个圆形拨盘带一个固定指针，圆盘每次转一格，盘上每格有字母，给一个字符串key，求拨盘逐个拨到key相应位置需要最少步数。
-//"可等效为2个字符串key和ring，在逐个遍历key时找其在ring上的对应位置，要求每次到新位置走过的距离最小（此处ring的位置是首尾相连的）。
+//可等效为2个字符串key和ring，在逐个遍历key时找其在ring上的对应位置，要求每次到新位置走过的距离最小（此处ring的位置是首尾相连的）。
 
 //dp，遍历key[i]，记录key[i]在dial上所有对应位置pos[i][1..k]，dp[i][j]表示key[i]指向dial[j]需要的最少步数，dp[i][j]=min{dp[i-1][pos[i-1][k]]+dist(pos[i-1][k],j)}
-//"动态二维数组不好弄，设计了个pos[i][j],其中pos[i][0]为该行有效元素，对应dial位置存在pos[i][1]~pos[i][pos[i][0]]中。
+//动态二维数组不好弄，设计了个pos[i][j],其中pos[i][0]为该行有效元素，对应dial位置存在pos[i][1]~pos[i][pos[i][0]]中。
 //注意数组初始化即可。
 
 
