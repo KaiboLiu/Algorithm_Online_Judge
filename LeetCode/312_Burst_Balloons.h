@@ -35,7 +35,8 @@ Return 167
 
 
     int maxCoins(vector<int>& nums) {
-        int n = nums.size();
+        int n = 0;
+        n = nums.size();
         nums.insert(nums.begin(),1);
         nums.push_back(1);
         //vector<vector<int> > dp(nums.size(), vector<int>(nums.size(), 0));
@@ -55,7 +56,7 @@ int main(){
     cout<<"312_Burst_Balloons:input numbers added to vector a[] until -100, as the balloons' value:"<<endl;
 
     vector<int> a;
-    int i,S;
+    int i;
     cin>>i;
     while (i != -100){
         a.push_back(i);
