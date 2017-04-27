@@ -1,4 +1,5 @@
 //375_Guess_Number_Higher_or_Lower_II.h
+//26ms  36.27%
 
 /*
 Total Accepted: 18655
@@ -17,6 +18,8 @@ However, when you guess a particular number x, and you guess wrong, you pay $x. 
 */
 
 //1..n之中猜数字，猜错要扣掉所猜数字的分值，求猜对至少需要多少分。
+//看的solution，用recursive，其实用DP数组可以更快。
+
 
     int DP(int *num, int a, int b, int n){
         if (a >= b) return 0;
