@@ -49,8 +49,6 @@ However, when you guess a particular number x, and you guess wrong, you pay $x. 
     int getMoneyAmount(int n) {
         int DP[n+2][n+2];
         memset(DP,0,(n+2)*(n+2)*sizeof(int));
-        //for (int i=1;i<=n;i++)
-        //    DP[i][i] = 0;
         for (int d = 1;d<n;d++)
             for (int i=1;i<=n-d;i++){
                 int tmp = 0,j=i+d;
@@ -59,7 +57,6 @@ However, when you guess a particular number x, and you guess wrong, you pay $x. 
                     tmp = k + max(DP[i][k-1],DP[k+1][j]);
                     DP[i][j] = min(DP[i][j],tmp);
                 }
-                //cout<<i<<" "<<j<<" "<<DP[i][j]<<endl;
             }
         return DP[1][n];
     }
