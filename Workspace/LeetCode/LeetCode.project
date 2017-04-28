@@ -114,5 +114,6 @@
     <File Name="../../LeetCode/524_Longest_Word_in_Dictionary_through_Deleting.h"/>
     <File Name="../../LeetCode/394_Decode_String.h"/>
     <File Name="../../LeetCode/016_3Sum_Closest.h"/>
+    <File Name="../../LeetCode/419_Battleships_in_a_Board.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
