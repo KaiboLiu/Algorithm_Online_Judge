@@ -19,7 +19,7 @@ However, when you guess a particular number x, and you guess wrong, you pay $x. 
 
 //1..n之中猜数字，猜错要扣掉所猜数字的分值，求猜对至少需要多少分。
 //看的solution，用recursive，其实用DP数组可以更快。
-//DP自己做，"DP[i][j]=min{k+ max(DP[i][k-1],DP[k+1][j])} for k=i..j，共O(n^3)"
+//DP自己做，"DP[i][j]=min{k+ max(DP[i][k-1],DP[k+1][j])} for k=i..j，共O(n^3)
 
 
 
