@@ -115,5 +115,6 @@
     <File Name="../../LeetCode/394_Decode_String.h"/>
     <File Name="../../LeetCode/016_3Sum_Closest.h"/>
     <File Name="../../LeetCode/419_Battleships_in_a_Board.h"/>
+    <File Name="../../LeetCode/463_Island_Perimeter.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
