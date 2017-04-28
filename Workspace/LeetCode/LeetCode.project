@@ -112,5 +112,6 @@
     <File Name="../../LeetCode/368_Largest_Divisible_Subset.h"/>
     <File Name="../../LeetCode/532_K-diff_Pairs_in_an_Array.h"/>
     <File Name="../../LeetCode/524_Longest_Word_in_Dictionary_through_Deleting.h"/>
+    <File Name="../../LeetCode/16_3Sum_Closest.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
