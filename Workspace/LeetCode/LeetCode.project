@@ -117,5 +117,7 @@
     <File Name="../../LeetCode/419_Battleships_in_a_Board.h"/>
     <File Name="../../LeetCode/463_Island_Perimeter.h"/>
     <File Name="../../LeetCode/412_Fizz_Buzz.h"/>
+    <File Name="../../LeetCode/442_Find_All_Duplicates_in_an_Array.h"/>
+    <File Name="../../LeetCode/448_Find_All_Numbers_Disappeared_in_an_Array.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
