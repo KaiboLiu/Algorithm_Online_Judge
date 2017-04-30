@@ -131,5 +131,6 @@
     <File Name="../../LeetCode/554_Brick_Wall.h"/>
     <File Name="../../LeetCode/542_01_Matrix.h"/>
     <File Name="../../LeetCode/526_Beautiful_Arrangement.h"/>
+    <File Name="../../LeetCode/079_Word_Search.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
