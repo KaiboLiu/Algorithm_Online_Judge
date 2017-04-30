@@ -119,5 +119,6 @@
     <File Name="../../LeetCode/412_Fizz_Buzz.h"/>
     <File Name="../../LeetCode/442_Find_All_Duplicates_in_an_Array.h"/>
     <File Name="../../LeetCode/448_Find_All_Numbers_Disappeared_in_an_Array.h"/>
+    <File Name="../../LeetCode/515_Find_Largest_Value_in_Each_Tree_Row.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
