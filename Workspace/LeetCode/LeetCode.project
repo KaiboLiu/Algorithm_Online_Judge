@@ -130,5 +130,6 @@
     <File Name="../../LeetCode/503_Next_Greater_Element_II.h"/>
     <File Name="../../LeetCode/554_Brick_Wall.h"/>
     <File Name="../../LeetCode/542_01_Matrix.h"/>
+    <File Name="../../LeetCode/526_Beautiful_Arrangement.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
