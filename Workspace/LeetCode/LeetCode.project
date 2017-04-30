@@ -125,6 +125,6 @@
     <File Name="../../LeetCode/459_Repeated_Substring_Pattern.h"/>
     <File Name="../../LeetCode/564_Find_the_Closest_Palindrome.h"/>
     <File Name="../../LeetCode/553_Optimal_Division.h"/>
-    <File Name="../../LeetCode/538_Convert_BST_to_Greater_Tree.h"/>
+    <File Name="../../LeetCode/556_Next_Greater_Element_III.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
