@@ -6,7 +6,7 @@ Total Accepted: 89871
 Total Submissions: 225631
 Instruction: LeetCode 326 - Power of Three - [E]
 Developer: lrushx
-Process Time: Apr 27, 2017
+Process Time: Apr 29, 2017
 */
 
 
@@ -19,6 +19,7 @@ Could you do it without using any loop / recursion?
 
 
 //假设n=3^k，对指数用二分法，也就是返回f(根n)或者f(根n/3)
+//复杂度O(log2(log3(n)))，比数学方法更快
 //52ms	98.76%
     bool isPowerOfThree(int n) {
         if (n < 1) return false;
@@ -34,6 +35,7 @@ Could you do it without using any loop / recursion?
     
     
 //用取对数的方法，求出答案后再算幂，和原数对比
+//不要试图判断取对数后是否为整数，太麻烦而且有精度问题，不如直接再算幂次
 //76ms	20.88%
     bool isPowerOfThree(int n) {
         return ((n>0) && (pow(3,round(log(n)/log(3)))==n));
