@@ -126,5 +126,7 @@
     <File Name="../../LeetCode/564_Find_the_Closest_Palindrome.h"/>
     <File Name="../../LeetCode/553_Optimal_Division.h"/>
     <File Name="../../LeetCode/556_Next_Greater_Element_III.h"/>
+    <File Name="../../LeetCode/496_Next_Greater_Element_I.h"/>
+    <File Name="../../LeetCode/503_Next_Greater_Element_II.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
