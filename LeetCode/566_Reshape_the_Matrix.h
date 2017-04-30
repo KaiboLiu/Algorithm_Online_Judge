@@ -2,8 +2,8 @@
 //35ms  100%
 
 /*
-Total Accepted: 89871
-Total Submissions: 225631
+Total Accepted: 1412
+Total Submissions: 2030
 Instruction: LeetCode 566 - Reshape the Matrix - [E]
 Developer: lrushx
 Process Time: Apr 29, 2017
@@ -12,14 +12,9 @@ Process Time: Apr 29, 2017
 
 /*
 In MATLAB, there is a very useful function called 'reshape', which can reshape a matrix into a new one with different size but keep its original data.
-
 You're given a matrix represented by a two-dimensional array, and two positive integers r and c representing the row number and column number of the wanted reshaped matrix, respectively.
-
 The reshaped matrix need to be filled with all the elements of the original matrix in the same row-traversing order as they were.
-
 If the 'reshape' operation with given parameters is possible and legal, output the new reshaped matrix; Otherwise, output the original matrix.
-
-Example 1:
 Input: 
 nums = 
 [[1,2],
@@ -29,8 +24,7 @@ Output:
 [[1,2,3,4]]
 */
 
-//给一个matrix(二维数组)和r，c，
-//如果可以reshape成r*c，就给出答案，否则给原始matrix
+//给一个matrix(二维数组)和r，c，//如果可以reshape成r*c，就给出答案，否则给原始matrix
 //比较简单
 
 
