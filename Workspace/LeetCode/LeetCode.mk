@@ -5,18 +5,18 @@
 ## Debug
 ProjectName            :=LeetCode
 ConfigurationName      :=Debug
-WorkspacePath          :=/Users/zhangyilin/0_pipi/Algorithm_Online_Judge/Workspace
-ProjectPath            :=/Users/zhangyilin/0_pipi/Algorithm_Online_Judge/Workspace/LeetCode
+WorkspacePath          :=/home/liukaib/coding/Algorithm_Online_Judge/Workspace
+ProjectPath            :=/home/liukaib/coding/Algorithm_Online_Judge/Workspace/LeetCode
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
-User                   :=ZHANG YILIN
-Date                   :=25/04/2017
-CodeLitePath           :="/Users/zhangyilin/Library/Application Support/codelite"
+User                   :=liukaib
+Date                   :=29/04/17
+CodeLitePath           :=/home/liukaib/.codelite
 LinkerName             :=/usr/bin/g++
-SharedObjectLinkerName :=/usr/bin/g++ -dynamiclib -fPIC
+SharedObjectLinkerName :=/usr/bin/g++ -shared -fPIC
 ObjectSuffix           :=.o
 DependSuffix           :=.o.d
 PreprocessSuffix       :=.i
@@ -59,7 +59,7 @@ AS       := /usr/bin/as
 ##
 ## User defined environment variables
 ##
-CodeLiteDir:=/private/var/folders/5s/_99nt5956_j2dry1pbst7r200000gn/T/AppTranslocation/9CDE9E32-96F2-48FC-86F1-30E5C7842F47/d/codelite.app/Contents/SharedSupport/
+CodeLiteDir:=/usr/share/codelite
 Objects0=$(IntermediateDirectory)/up_up_LeetCode_000_main.cpp$(ObjectSuffix) 
 
 
@@ -92,7 +92,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/up_up_LeetCode_000_main.cpp$(ObjectSuffix): ../../LeetCode/000_main.cpp $(IntermediateDirectory)/up_up_LeetCode_000_main.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/zhangyilin/0_pipi/Algorithm_Online_Judge/LeetCode/000_main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/up_up_LeetCode_000_main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/liukaib/coding/Algorithm_Online_Judge/LeetCode/000_main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/up_up_LeetCode_000_main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/up_up_LeetCode_000_main.cpp$(DependSuffix): ../../LeetCode/000_main.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/up_up_LeetCode_000_main.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/up_up_LeetCode_000_main.cpp$(DependSuffix) -MM ../../LeetCode/000_main.cpp
 

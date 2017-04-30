@@ -120,5 +120,7 @@
     <File Name="../../LeetCode/442_Find_All_Duplicates_in_an_Array.h"/>
     <File Name="../../LeetCode/448_Find_All_Numbers_Disappeared_in_an_Array.h"/>
     <File Name="../../LeetCode/515_Find_Largest_Value_in_Each_Tree_Row.h"/>
+    <File Name="../../LeetCode/566.h"/>
+    <File Name="../../LeetCode/326_Power_of_Three.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
