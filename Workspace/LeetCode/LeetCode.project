@@ -123,5 +123,6 @@
     <File Name="../../LeetCode/326_Power_of_Three.h"/>
     <File Name="../../LeetCode/566_Reshape_the_Matrix.h"/>
     <File Name="../../LeetCode/459_Repeated_Substring_Pattern.h"/>
+    <File Name="../../LeetCode/564_Find_the_Closest_Palindrome.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
