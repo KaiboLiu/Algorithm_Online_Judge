@@ -133,5 +133,7 @@
     <File Name="../../LeetCode/526_Beautiful_Arrangement.h"/>
     <File Name="../../LeetCode/079_Word_Search.h"/>
     <File Name="../../LeetCode/401_Binary_Watch.h"/>
+    <File Name="../../LeetCode/529_Minesweeper.h"/>
+    <File Name="../../LeetCode/520_Detect_Capital.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
