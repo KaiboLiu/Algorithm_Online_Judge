@@ -137,5 +137,6 @@
     <File Name="../../LeetCode/520_Detect_Capital.h"/>
     <File Name="../../LeetCode/406_Queue_Reconstruction_by_Height.h"/>
     <File Name="../../LeetCode/518_Coin_Change_2.h"/>
+    <File Name="../../LeetCode/322_Coin_Change.h"/>
   </VirtualDirectory>
 </CodeLite_Project>

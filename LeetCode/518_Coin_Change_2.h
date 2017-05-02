@@ -34,6 +34,7 @@ Explanation: there are four ways to make up the amount:
 //DP，不是按和0..n遍历，而是先遍历数组a[i]，再遍历和dp[sum]+=dp[sum-a[i]];
 //无限背包问题，但是不是求最大值而是方案数，稍微改动一点就好
 
+
     int change(int amount, vector<int>& coins) {
         if (amount == 0) return 1;
         vector<int> dp(amount+1,0);
