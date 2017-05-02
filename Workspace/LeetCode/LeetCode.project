@@ -138,5 +138,6 @@
     <File Name="../../LeetCode/406_Queue_Reconstruction_by_Height.h"/>
     <File Name="../../LeetCode/518_Coin_Change_2.h"/>
     <File Name="../../LeetCode/322_Coin_Change.h"/>
+    <File Name="../../LeetCode/522_Longest_Uncommon_Subsequence_II.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
