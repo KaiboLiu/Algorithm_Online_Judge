@@ -26,6 +26,7 @@ return -1.
 //dp数组索引为和，值为取数最小个数，按照和s遍历，dp[s]=min{dp[s-a[i]]}+1 (for all i, if dp[s-a[i]]>=0)，初始时dp[]=-1,dp[0]=0
 //给的数组如果不排序，就不要认为排序从而通过len--来排除处理大数
 //DP一定要多想想转移方程和索引范围、初始状态
+//通过率26.2%的M
 
 
     int coinChange(vector<int>& coins, int amount) {
