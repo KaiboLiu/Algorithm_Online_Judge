@@ -135,5 +135,6 @@
     <File Name="../../LeetCode/401_Binary_Watch.h"/>
     <File Name="../../LeetCode/529_Minesweeper.h"/>
     <File Name="../../LeetCode/520_Detect_Capital.h"/>
+    <File Name="../../LeetCode/406_Queue_Reconstruction_by_Height.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
