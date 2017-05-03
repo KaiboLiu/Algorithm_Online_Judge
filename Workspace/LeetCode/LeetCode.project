@@ -141,6 +141,7 @@
     <File Name="../../LeetCode/522_Longest_Uncommon_Subsequence_II.h"/>
     <File Name="../../LeetCode/295_Find_Median_from_Data_Stream.h"/>
     <File Name="../../LeetCode/395_Longest_Substring_with_At_Least_K_Repeating_Characters.h"/>
-    <File Name="../../LeetCode/389_Find_the_Difference.h"/>
+    <File Name="../../LeetCode/508_Most_Frequent_Subtree_Sum.h"/>
+    <File Name="../../LeetCode/433_Minimum_Genetic_Mutation.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
