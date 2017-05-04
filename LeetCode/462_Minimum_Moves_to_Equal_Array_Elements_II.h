@@ -2,31 +2,40 @@
 //
 
 /*
-Total Accepted: 4770
-Total Submissions: 15657
-Instruction: LeetCode 433 - Minimum Genetic Mutation - [M]
+Total Accepted: 12953
+Total Submissions: 25292
+Instruction: LeetCode 462 - Minimum Moves to Equal Array Elements II - [E]
 Developer: lrushx
-Process Time: May 02, 2017
+Process Time: May 03, 2017
 */
 
 
 /*
-A gene string can be represented by an 8-character long string, with choices from "A", "C", "G", "T".
-Suppose we need to investigate about a mutation (mutation from "start" to "end"), where ONE mutation is defined as ONE single character changed in the gene string.
-For example, "AACCGGTT" -> "AACCGGTA" is 1 mutation.
-Also, there is a given gene "bank", which records all the valid gene mutations. A gene must be in the bank to make it a valid gene string.
-Now, given 3 things - start, end, bank, your task is to determine what is the minimum number of mutations needed to mutate from "start" to "end". If there is no such a mutation, return -1.
+Given a non-empty integer array, find the minimum number of moves required to make all array elements equal, where a move is incrementing a selected element by 1 or decrementing a selected element by 1.
+You may assume the array's length is at most 10,000.
 
-Note:
-Starting point is assumed to be valid, so it might not be included in the bank.
-If multiple mutations are needed, all mutations during in the sequence must be valid.
-You may assume start and end string is not the same.
-Example:
-start: "AAAAACCC"
-end:   "AACCCCCC"
-bank: ["AAAACCCC", "AAACCCCC", "AACCCCCC"]
-return: 3
+Input:
+[1,2,3]
+Output:
+2
+
+Explanation:
+Only two moves are needed (remember each move increments or decrements one element):
+[1,2,3]  =>  [2,2,3]  =>  [2,2,2]
 */
 
 
-//给一个起
+//给一个数组，每次操作给其中一个数+1或-1，求需要多少次操作使得所有元素相等
+//通过数学分析，和平均数无关，只需要中位数，因为此时<=median和>median的数相等，中位数+1或者-1会使得两边数量不等从而总次数更多
+//这里的中位数，直接a[n/2]即可，无需判断奇偶，很神奇
+
+
+    int minMoves2(vector<int>& nums) {
+        int len = nums.size();
+        if (len == 0) return 0;
+        sort(nums.begin(),nums.end());
+        int i,ans=0,median = nums[len/2];
+        
+        for (i=0;i<len;i++) ans += abs(nums[i] - median);
+        return ans;
+    }

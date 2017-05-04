@@ -2,8 +2,8 @@
 //
 
 /*
-Total Accepted: 4770
-Total Submissions: 15657
+Total Accepted: 22722
+Total Submissions: 4853
 Instruction: LeetCode 453 - Minimum Moves to Equal Array Elements - [E]
 Developer: lrushx
 Process Time: May 03, 2017
