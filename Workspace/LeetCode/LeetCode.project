@@ -146,5 +146,6 @@
     <File Name="../../LeetCode/462_Minimum_Moves_to_Equal_Array_Elements_II.h"/>
     <File Name="../../LeetCode/453_Minimum_Moves_to_Equal_Array_Elements.h"/>
     <File Name="../../LeetCode/400_Nth_Digit.h"/>
+    <File Name="../../LeetCode/506_Relative_Ranks.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
