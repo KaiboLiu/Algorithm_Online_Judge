@@ -143,5 +143,7 @@
     <File Name="../../LeetCode/395_Longest_Substring_with_At_Least_K_Repeating_Characters.h"/>
     <File Name="../../LeetCode/508_Most_Frequent_Subtree_Sum.h"/>
     <File Name="../../LeetCode/433_Minimum_Genetic_Mutation.h"/>
+    <File Name="../../LeetCode/462_Minimum_Moves_to_Equal_Array_Elements_II.h"/>
+    <File Name="../../LeetCode/453_Minimum_Moves_to_Equal_Array_Elements.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
