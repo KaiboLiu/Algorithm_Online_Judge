@@ -149,5 +149,6 @@
     <File Name="../../LeetCode/506_Relative_Ranks.h"/>
     <File Name="../../LeetCode/547_Friend_Circles.h"/>
     <File Name="../../LeetCode/498_Diagonal_Traverse.h"/>
+    <File Name="../../LeetCode/501_Find_Mode_in_Binary_Search_Tree.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
