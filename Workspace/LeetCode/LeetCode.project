@@ -151,5 +151,6 @@
     <File Name="../../LeetCode/498_Diagonal_Traverse.h"/>
     <File Name="../../LeetCode/501_Find_Mode_in_Binary_Search_Tree.h"/>
     <File Name="../../LeetCode/347_Top_K_Frequent_Elements.h"/>
+    <File Name="../../LeetCode/436_Find_Right_Interval.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
