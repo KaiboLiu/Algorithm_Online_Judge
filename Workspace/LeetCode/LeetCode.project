@@ -148,5 +148,6 @@
     <File Name="../../LeetCode/400_Nth_Digit.h"/>
     <File Name="../../LeetCode/506_Relative_Ranks.h"/>
     <File Name="../../LeetCode/547_Friend_Circles.h"/>
+    <File Name="../../LeetCode/498_Diagonal_Traverse.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
