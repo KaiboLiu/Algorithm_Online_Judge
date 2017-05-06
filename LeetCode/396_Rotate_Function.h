@@ -37,6 +37,7 @@ So the maximum value of F(0), F(1), F(2), F(3) is F(3) = 26.
 //f=和(i*a[i])，然后以此轮转a[i]后继续求f，求最大的f
 //用递推式，f[k]-f[k-1]=所有和-na[n-k]
 
+    int maxRotateFunction(vector<int>& A) {
         int len = A.size();
         if (len < 2) return 0;
         int i,f=0,res,sum=0;
