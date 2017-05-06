@@ -153,5 +153,6 @@
     <File Name="../../LeetCode/347_Top_K_Frequent_Elements.h"/>
     <File Name="../../LeetCode/436_Find_Right_Interval.h"/>
     <File Name="../../LeetCode/372_Super_Pow.h"/>
+    <File Name="../../LeetCode/397_Integer_Replacement.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
