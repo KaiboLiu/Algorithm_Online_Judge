@@ -155,5 +155,10 @@
     <File Name="../../LeetCode/372_Super_Pow.h"/>
     <File Name="../../LeetCode/397_Integer_Replacement.h"/>
     <File Name="../../LeetCode/576_Out_of_Boundary_Paths.h"/>
+    <File Name="../../LeetCode/573_Squirrel_Simulation.h"/>
+    <File Name="../../LeetCode/572_Subtree_of_Another_Tree.h"/>
+    <File Name="../../LeetCode/575_Distribute_Candies.h"/>
+    <File Name="../../LeetCode/481_Magical_String.h"/>
+    <File Name="../../LeetCode/445_Add_Two_Numbers_II.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
