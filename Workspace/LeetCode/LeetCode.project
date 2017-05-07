@@ -160,5 +160,6 @@
     <File Name="../../LeetCode/575_Distribute_Candies.h"/>
     <File Name="../../LeetCode/481_Magical_String.h"/>
     <File Name="../../LeetCode/445_Add_Two_Numbers_II.h"/>
+    <File Name="../../LeetCode/525_Contiguous_Array.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
