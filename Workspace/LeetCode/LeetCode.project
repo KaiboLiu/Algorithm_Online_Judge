@@ -165,5 +165,6 @@
     <File Name="../../LeetCode/438_Find_All_Anagrams_in_a_String.h"/>
     <File Name="../../LeetCode/539_Minimum_Time_Difference.h"/>
     <File Name="../../LeetCode/423_Reconstruct_Original_Digits_from_English.h"/>
+    <File Name="../../LeetCode/337_House_Robber_III.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
