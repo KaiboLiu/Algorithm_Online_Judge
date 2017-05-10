@@ -107,5 +107,6 @@
     <File Name="../../LeetCode/423_Reconstruct_Original_Digits_from_English.h"/>
     <File Name="../../LeetCode/337_House_Robber_III.h"/>
     <File Name="../../LeetCode/449_Serialize_and_Deserialize_BST.h"/>
+    <File Name="../../LeetCode/491_Increasing_Subsequences.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
