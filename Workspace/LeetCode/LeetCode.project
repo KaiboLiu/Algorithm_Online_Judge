@@ -163,5 +163,6 @@
     <File Name="../../LeetCode/525_Contiguous_Array.h"/>
     <File Name="../../LeetCode/384_Shuffle an_Array.h"/>
     <File Name="../../LeetCode/438_Find_All_Anagrams_in_a_String.h"/>
+    <File Name="../../LeetCode/539_Minimum_Time_Difference.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
