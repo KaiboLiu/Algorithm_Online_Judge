@@ -26,8 +26,6 @@ Output: 7 -> 8 -> 0 -> 7
 //高精度加法，只不过用链表储存两个加数，返回也是链表
 //把链表转成数组再用高精度加法，最后转回到链表即可
 
-
-
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
         vector<int> v1;
         while (l1){
