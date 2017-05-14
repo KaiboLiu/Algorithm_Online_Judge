@@ -1,5 +1,6 @@
 //575_Distribute_Candies.h
-//
+//302ms	64.85%
+//LeetCode Contest 31
 
 /*
 Total Accepted: 1340
@@ -25,7 +26,6 @@ The number in given array is in range [-100,000, 100,000].
 */
 
 
-//LeetCode Contest 30
 //给偶数个数字代表种类，分成2份使其中一份不同数字最多，返回这个最多种类
 //简单贪心 用hash table统计每个数字出现次数c，返回min(c,n/2)即可
 
