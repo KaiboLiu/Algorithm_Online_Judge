@@ -1,5 +1,5 @@
 //572_Subtree_of_Another_Tree.h
-//23ms	66.66%
+//23ms	94.13%
 //LeetCode Contest 31
 
 /*
