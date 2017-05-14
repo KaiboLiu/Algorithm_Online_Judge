@@ -1,5 +1,6 @@
 //573_Squirrel_Simulation.h
 //19ms	100.00%
+//LeetCode Contest 31
 
 /*
 Instruction: LeetCode 573 - Squirrel Simulation - [M]
@@ -29,7 +30,6 @@ The given positions contain at least one nut, only one tree and one squirrel.
 */
 
 
-//LeetCode Contest 30
 //地图中给一个树，一个松鼠和n个坚果，要求松鼠从起点出发每次拿一个坚果到树处，求一共多少步把坚果全部集齐
 //先算每个坚果到树的距离，×2表示往返距离，然后比较松鼠到每个坚果的距离，找个最优的距离替换该坚果到树的一趟距离。最优指的是dist(松鼠,坚果[i])-dist(松树,坚果[i])最小。比较时要注意这个差可以为负数
 
