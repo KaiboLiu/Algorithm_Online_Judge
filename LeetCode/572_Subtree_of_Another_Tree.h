@@ -1,5 +1,6 @@
 //572_Subtree_of_Another_Tree.h
 //23ms	66.66%
+//LeetCode Contest 31
 
 /*
 Total Accepted: 1170
@@ -31,7 +32,6 @@ Return false.
 */
 
 
-//LeetCode Contest 30
 //给2个二叉树，判断第二个是否是第一个的子树(匹配开始后必须完全一样)，第一个下面多一个分支也不行
 //递归即可，判断条件比较多，写的比较丑
 
