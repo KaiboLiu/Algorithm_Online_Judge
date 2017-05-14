@@ -1,5 +1,6 @@
 //583_Delete_Operation_for_Two_Strings.h
 //25ms	100.00%
+//LeetCode Contest 32
 
 /*
 Total Accepted: 624
@@ -22,7 +23,7 @@ The length of given words won't exceed 500.
 Characters in given words can only be lower-case letters.
 */
 
-//LeetCode Contest 32
+
 //给2个字符串，求共删除多少个字符可以让2个串相等
 //O(mn)的DP, f[i][j]表示长为i的s和长为j的t需要删除多少个才能相等，初始化很重要，f[i][0]=f[0][i]=i，然后遍历i,j，若s[i-1]==t[j-1]则f[i][j]=f[i-1][j-1]否则f[i][j]=min(f[i-1][j],f[i][j-1])+1
 
