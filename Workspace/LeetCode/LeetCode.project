@@ -110,5 +110,6 @@
     <File Name="../../LeetCode/491_Increasing_Subsequences.h"/>
     <File Name="../../LeetCode/434_Number_of_Segments_in_a_String.h"/>
     <File Name="../../LeetCode/386_Lexicographical_Numbers.h"/>
+    <File Name="../../LeetCode/174_Dungeon_Game.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
