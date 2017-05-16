@@ -113,5 +113,6 @@
     <File Name="../../LeetCode/174_Dungeon_Game.h"/>
     <File Name="../../LeetCode/361_Bomb_Enemy.h"/>
     <File Name="../../LeetCode/424_Longest_Repeating_Character_Replacement.h"/>
+    <File Name="../../LeetCode/241_Different_Ways_to_Add_Parentheses.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
