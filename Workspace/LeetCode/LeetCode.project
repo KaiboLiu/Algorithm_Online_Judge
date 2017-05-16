@@ -108,5 +108,6 @@
     <File Name="../../LeetCode/337_House_Robber_III.h"/>
     <File Name="../../LeetCode/449_Serialize_and_Deserialize_BST.h"/>
     <File Name="../../LeetCode/491_Increasing_Subsequences.h"/>
+    <File Name="../../LeetCode/434_Number_of_Segments_in_a_String.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
