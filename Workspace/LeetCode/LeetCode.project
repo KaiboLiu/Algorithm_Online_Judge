@@ -111,5 +111,7 @@
     <File Name="../../LeetCode/434_Number_of_Segments_in_a_String.h"/>
     <File Name="../../LeetCode/386_Lexicographical_Numbers.h"/>
     <File Name="../../LeetCode/174_Dungeon_Game.h"/>
+    <File Name="../../LeetCode/361_Bomb_Enemy.h"/>
+    <File Name="../../LeetCode/424_Longest_Repeating_Character_Replacement.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
