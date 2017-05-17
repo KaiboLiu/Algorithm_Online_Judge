@@ -114,5 +114,8 @@
     <File Name="../../LeetCode/361_Bomb_Enemy.h"/>
     <File Name="../../LeetCode/424_Longest_Repeating_Character_Replacement.h"/>
     <File Name="../../LeetCode/241_Different_Ways_to_Add_Parentheses.h"/>
+    <File Name="../../LeetCode/524_Longest_Word_in_Dictionary_through_Deleting.h"/>
+    <File Name="../../LeetCode/436_Find_Right_Interval.h"/>
+    <File Name="../../LeetCode/452_Minimum_Number_of_Arrows_to_Burst_Balloons.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
