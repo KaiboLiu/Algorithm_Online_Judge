@@ -117,5 +117,6 @@
     <File Name="../../LeetCode/524_Longest_Word_in_Dictionary_through_Deleting.h"/>
     <File Name="../../LeetCode/436_Find_Right_Interval.h"/>
     <File Name="../../LeetCode/452_Minimum_Number_of_Arrows_to_Burst_Balloons.h"/>
+    <File Name="../../LeetCode/435_Non-overlapping_Intervals.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
