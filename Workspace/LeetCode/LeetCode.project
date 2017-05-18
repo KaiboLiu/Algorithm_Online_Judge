@@ -119,5 +119,6 @@
     <File Name="../../LeetCode/452_Minimum_Number_of_Arrows_to_Burst_Balloons.h"/>
     <File Name="../../LeetCode/435_Non-overlapping_Intervals.h"/>
     <File Name="../../LeetCode/044_Wildcard_Matching.h"/>
+    <File Name="../../LeetCode/010_Regular_Expression_Matching.h"/>
   </VirtualDirectory>
 </CodeLite_Project>

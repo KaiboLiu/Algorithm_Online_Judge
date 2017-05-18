@@ -1,5 +1,6 @@
 //044_Wildcard_Matching.h
-//
+//39ms	71.95%
+//1805 / 1805 test cases passed.
 
 /*
 Total Accepted: 90235
