@@ -120,5 +120,6 @@
     <File Name="../../LeetCode/435_Non-overlapping_Intervals.h"/>
     <File Name="../../LeetCode/044_Wildcard_Matching.h"/>
     <File Name="../../LeetCode/010_Regular_Expression_Matching.h"/>
+    <File Name="../../LeetCode/354_Russian_Doll_Envelopes.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
