@@ -121,5 +121,6 @@
     <File Name="../../LeetCode/044_Wildcard_Matching.h"/>
     <File Name="../../LeetCode/010_Regular_Expression_Matching.h"/>
     <File Name="../../LeetCode/354_Russian_Doll_Envelopes.h"/>
+    <File Name="../../LeetCode/087_Scramble_String.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
