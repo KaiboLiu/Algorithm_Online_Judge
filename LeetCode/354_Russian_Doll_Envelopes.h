@@ -25,6 +25,7 @@ Given envelopes = [[5,4],[6,4],[6,7],[2,3]], the maximum number of envelopes you
 //solution2, 23ms	96.10%
 //DP+二分。先根据key1排序，相等时key2降序。使用DP[l]表示满足条件的序列的长度为l时，储存最小key２的信封。
 //遍历第i个信封时，在DP中二分查找pos，找到第一个>=a[i].second的pos更新为a[i]的值，若这个pos>l并且这个a[i]满足长宽都>DP最后一个，则DP长度+1
+//一开始二分时找的是第一个>a[i].second，这样的话每次更新的是DP中比当前key2更大的值，会导致留下很多second相同的信封在DP中，应该更新第一个>=a[i].second，避免相同key2出现在DP数组中
 
 //成绩是2个集中分布，我一开始在慢的一个大区间中，大家用的是O(n2)346ms/28.12%，另一个快很多的区间是O(nlogn)
 //第二天琢磨了很久，用了LIS中的二分方法，再综合这道题的很多细节，终于完成O(nlogn)，做到23ms/96.10%
