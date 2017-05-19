@@ -124,5 +124,6 @@
     <File Name="../../LeetCode/087_Scramble_String.h"/>
     <File Name="../../LeetCode/502_IPO.h"/>
     <File Name="../../LeetCode/468_Validate_IP_Address.h"/>
+    <File Name="../../LeetCode/090_Subsets_II.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
