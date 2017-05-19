@@ -2,7 +2,7 @@
 //6ms	64.94%
 
 /*
-Total Accepted: 61758
+Total Accepted: 61762
 Total Submissions: 215054
 Instruction: LeetCode 087 - Scramble String - [H]
 Developer: lrushx
