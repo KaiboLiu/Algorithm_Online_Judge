@@ -123,5 +123,6 @@
     <File Name="../../LeetCode/354_Russian_Doll_Envelopes.h"/>
     <File Name="../../LeetCode/087_Scramble_String.h"/>
     <File Name="../../LeetCode/502_IPO.h"/>
+    <File Name="../../LeetCode/468_Validate_IP_Address.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
