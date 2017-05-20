@@ -126,5 +126,6 @@
     <File Name="../../LeetCode/468_Validate_IP_Address.h"/>
     <File Name="../../LeetCode/090_Subsets_II.h"/>
     <File Name="../../LeetCode/380_Insert_Delete_GetRandom_O(1).h"/>
+    <File Name="../../LeetCode/381_Insert_Delete_GetRandom_O(1)-Duplicates_allowed.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
