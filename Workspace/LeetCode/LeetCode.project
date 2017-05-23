@@ -127,5 +127,6 @@
     <File Name="../../LeetCode/090_Subsets_II.h"/>
     <File Name="../../LeetCode/380_Insert_Delete_GetRandom_O(1).h"/>
     <File Name="../../LeetCode/381_Insert_Delete_GetRandom_O(1)-Duplicates_allowed.h"/>
+    <File Name="../../LeetCode/309_Best_Time_to_Buy_and_Sell_Stock_with_Cooldown.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
