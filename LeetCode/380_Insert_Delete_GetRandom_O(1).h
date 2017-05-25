@@ -9,7 +9,6 @@ Developer: lrushx
 Process Time: May 19, 2017
 */
 
-
 /*
 Design a data structure that supports all following operations in average O(1) time.
 
