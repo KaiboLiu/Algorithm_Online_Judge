@@ -23,6 +23,7 @@ getRandom: Returns a random element from current set of elements. Each element m
 //map的删除元素直接用m.erase(key1)；vector取最后元素可以用v.back()；vector加元素可以用v.emplace_back(val)或者v.push_back(val)
 
 
+
 class RandomizedSet {
 private:
     vector<int> num;
