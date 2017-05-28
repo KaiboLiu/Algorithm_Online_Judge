@@ -35,19 +35,31 @@ Note: 1 <= n <= 109
 //先写了个组合数的函数，用了double，算完后返回(int)，没有意识到这里精度问题，g[]数组里有几个数个位有偏差。。。tmd。。。导致结果一直不对。直到比赛结束后才发现，换成round()返回就对了。。。
 
 
+
+/*
+    void res_from_len_no_restrict(){
+        int tmp;
+        for (int n=1;n<=32;n++){
+            tmp = 0;
+            for (int i=0;i<=(n+1)/2;i++) 
+                int tmp += comp(i,n-i+1);
+            cout<<"--"<<n<<" "<<tmp<<endl;
+        }
+        return;
+    }
+    
     int comp(int i,int n){
         if (i > n/2) i = n-i;
         double res = 1;
         for (int j=0;j<i;j++) res = res * (n-j)/(i-j);
         return round(res);
     }
-    
+*/    
     int g[33] = {1,2,3,5,8,13,21,34,55,89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946, 17711, 28657, 46368, 75025, 121393, 196418, 317811, 514229, 832040, 1346269, 2178309, 3524578, 5702887};
     
     int findIntegers(int num) {
         if (num == 0) return 1;
         int res = 0;
-        //if (num == 10000) return 843;
         int len = 0,n=num;
         while (n > 0){
             len ++;
@@ -59,18 +71,5 @@ Note: 1 <= n <= 109
         n = num >> (len-2);
         if (n == 2) return findIntegers(num- (2<<(len-2)))+g[len-1];
         else return g[len-1]+g[len-2];
-        
-        /*
-        int res = 0,tmp;
-        for (int n=1;n<=32;n++){
-            tmp = 0;
-            for (int i=0;i<=(n+1)/2;i++) {
-                int tmp1 = comp(i,n-i+1);
-                tmp += tmp1;
-                //cout<<tmp1<<" ";
-            }
-            cout<<"--"<<n<<" "<<tmp<<endl;
-        }
-        return 0;
-        */
+
     }
