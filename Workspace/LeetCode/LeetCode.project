@@ -131,5 +131,6 @@
     <File Name="../../LeetCode/592_Fraction_Addition_and_Subtraction.h"/>
     <File Name="../../LeetCode/393_UTF-8_Validation.h"/>
     <File Name="../../LeetCode/565_Array_Nesting.h"/>
+    <File Name="../../LeetCode/341_Flatten_Nested_List_Iterator.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
