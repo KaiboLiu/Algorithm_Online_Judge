@@ -132,5 +132,6 @@
     <File Name="../../LeetCode/393_UTF-8_Validation.h"/>
     <File Name="../../LeetCode/565_Array_Nesting.h"/>
     <File Name="../../LeetCode/341_Flatten_Nested_List_Iterator.h"/>
+    <File Name="../../LeetCode/385_Mini_Parser.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
