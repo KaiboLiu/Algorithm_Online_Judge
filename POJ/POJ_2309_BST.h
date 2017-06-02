@@ -11,6 +11,7 @@
  //数学方法，每行都是等差数列，最下行为l=0，首项2^l，公差2^(l+1)，从左往右第k个节点(k起始为0)节点值为(1+2k)*2^l=b*a,
  //根据X求出其位置{l,k}(其实只要a就行),则可得到其父节点值X+公差/2，则X子节点中最大值为父节点-1，即max=X+2^l-1=X+a-1，则min=2X-max；
  
+
 #include <iostream>      //改用<iostream>
 using namespace std;
 int main(){
