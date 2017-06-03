@@ -137,5 +137,6 @@
     <File Name="../../LeetCode/117_Populating_Next_Right_Pointers_in_Each_Node_II.h"/>
     <File Name="../../LeetCode/131_Palindrome_Partitioning.h"/>
     <File Name="../../LeetCode/398_Random_Pick_Index.h"/>
+    <File Name="../../LeetCode/417_Pacific_Atlantic_Water_Flow.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
