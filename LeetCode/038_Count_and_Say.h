@@ -2,8 +2,6 @@
 //从1开始，1, 11, 21, 1211, 111221，读出上一个序列中“几个2，几个1”
 //按顺序生成序列，无规律可找
 
-
-
     string countAndSay(int n) {
         string s="1",t;
         int count;
