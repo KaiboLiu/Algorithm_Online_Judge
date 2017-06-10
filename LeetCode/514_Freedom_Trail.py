@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 #514_Freedom_Trail.py
 #292ms  49.64%
 
