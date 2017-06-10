@@ -1,15 +1,15 @@
-//330_Patching_Array.py
-//49ms	66.04%
+#330_Patching_Array.py
+#49ms	66.04%
 
-/*
+'''
 Total Accepted: 21169
 Total Submissions: 66604
 Instruction: LeetCode 330 - Patching Array - [H]
 Developer: lrushx
 Process Time: June 08, 2017
-*/
+'''
 
-/*
+'''
 Given a sorted positive integer array nums and an integer n, add/patch elements to the array such that any number in range [1, n] inclusive can be formed by the sum of some elements in the array. Return the minimum number of patches required.
 
 Example 1:
@@ -29,11 +29,11 @@ The two patches can be [2, 4].
 Example 3:
 nums = [1, 2, 2], n = 5
 Return 0.
-*/
+'''
 
-//给一组排序数组num和数字n，求需要加几个数到数组中，可以使1..n均能被数组中元素求和表示
-//假设现在已经可以表示[1,miss)，用到num[i]，若num[i]<=miss则加上num[i]可以表示到[1,num[i]+miss)，否则num[i]没用，必须要添一个miss，使得答案数+1
-//非常巧妙的方法，一开始用dict会超时
+#给一组排序数组num和数字n，求需要加几个数到数组中，可以使1..n均能被数组中元素求和表示
+#假设现在已经可以表示[1,miss)，用到num[i]，若num[i]<=miss则加上num[i]可以表示到[1,num[i]+miss)，否则num[i]没用，必须要添一个miss，使得答案数+1
+#非常巧妙的方法，一开始用dict会超时
 
 class Solution(object):
     def minPatches(self, nums, n):
