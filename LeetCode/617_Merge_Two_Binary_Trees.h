@@ -5,7 +5,7 @@
 /*
 Total Accepted: 1086
 Total Submissions: 1141
-Instruction: LeetCode 617 - Merge Two Binary Trees - [M]
+Instruction: LeetCode 617 - Merge Two Binary Trees - [E]
 Developer: lrushx
 Process Time: June 10, 2017
 */
