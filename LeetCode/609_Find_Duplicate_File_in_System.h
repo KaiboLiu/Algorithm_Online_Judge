@@ -32,6 +32,9 @@ You may assume no files or directories share the same name in a same directory.
 You may assume each given directory info represents a unique directory. Directory path and file infos are separated by a single blank space.
 */
 
+//给一串字符串，每个字符串里面多个空格，第一部分为路径，之后多个文件名(文件内容串)，要找出各个所有文件内容串相等的文件，把路径连同文件名输出到同一个vector中，然后返回一个数组，包含所有这样的vector
+//用map构造hash table，key为内容串，内容为一个vector，push进所有包含这个内容串的路径+文件名，最后遍历这个map，把所有size>1的vector都push到答案中
+
     vector<vector<string>> findDuplicate(vector<string>& paths) {
         unordered_map<string,vector<string>> m;
         unordered_map<string,vector<string>>::iterator it;
