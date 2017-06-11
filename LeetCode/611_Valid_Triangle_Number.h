@@ -26,6 +26,10 @@ The length of the given array won't exceed 1000.
 The integers in the given array are in the range of [0, 1000].
 */
 
+//给一个数组，求多少组合可以构成三角形三条边
+//一开始3个for循环超时，后来第3重用二分就过了O(n2logn)
+//二分不熟练啊 还有输入为0的情况
+
     int bisearchr(vector<int>& nums,int a,int b,int key){
         int mid,i=a,j=b;
         while (i <= j){
