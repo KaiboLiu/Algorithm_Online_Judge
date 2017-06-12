@@ -13,7 +13,7 @@ Process Time: June 11, 2017
 现在请问，参赛者小美最多可以活到第几轮（初始为第0轮）？
 */
 
-// python MLE,该用C++就AC了...
+// python MLE,改用C++就AC了...
 
 #include <iostream>
 using namespace std;
