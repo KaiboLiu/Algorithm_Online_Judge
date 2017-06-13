@@ -1,11 +1,11 @@
-#1_2.h
-#CodeM Qualifying
+//1_2.h
+//CodeM Qualifying
 
-'''
+/*
 Instruction: CodeM - 1_2 锦标赛
 Developer: lrushx
 Process Time: June 11, 2017
-'''
+*/
 
 // 锦标赛
 /*
