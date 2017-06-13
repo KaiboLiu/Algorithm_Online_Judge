@@ -1,11 +1,11 @@
-#1_5.h
-#CodeM Qualifying
+//1_5.h
+//codeM Qualifying
 
-'''
+/*
 Instruction: CodeM - 1_5 数码
 Developer: lrushx
 Process Time: June 11, 2017
-'''
+*/
 
 /*
 给定两个整数 l 和 r ，对于所有满足1 ≤ l ≤ x ≤ r ≤ 10^9 的 x ，把 x 的所有约数全部写下来。对于每个写下来的数，只保留最高位的那个数码。求1～9每个数码出现的次数。
