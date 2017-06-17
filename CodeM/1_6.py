@@ -7,6 +7,7 @@
 Instruction: CodeM - 1_6 围棋
 Developer: lrushx
 Process Time: June 12, 2017
+Not AC 
 '''
 
 '''
