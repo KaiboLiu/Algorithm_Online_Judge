@@ -35,8 +35,6 @@ Explanation: Remove all the digits from the number and it is left with nothing w
 //给一个字符串作为高精度整数，删除k位后返回最小的答案
 //贪心，从左往右找i，若i位>i+1位则删除i位，否则删除最后一位。删除一位后判断首位为0的情况，删除所有首位0。可以在最后加一个"0"简化操作。
 
-
-
     string removeKdigits(string num, int k) {
         int i,i0=0;
         num += "0";
