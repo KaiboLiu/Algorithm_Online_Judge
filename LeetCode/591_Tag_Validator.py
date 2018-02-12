@@ -1,9 +1,7 @@
-## 591_Tag_Validator.h
-## 3ms   100.00%
+## 591_Tag_Validator.py
+## 117ms   ?%
 
 '''
-Total Accepted: 130
-Total Submissions: 818
 Instruction: LeetCode 519 - Tag Validator - [H]
 Developer: lrushx
 Process Time: Feb 11, 2018
