@@ -32,14 +32,16 @@ Sample data is at the bottom
 # 同时注意：左边和右边用substr复制时要注意长度为0的情况
 # 太多情况，一次次WA才发现。
 # 其中一个是CDATA中有<B>或者</B>千万不能参与查找tag，要提前先删除这部分，但是要在判断初始串有<A>*</A>之后再删除；
+
+
 class Solution:
+
     def isValid(self, code):
         """
         :type code: str
         :rtype: bool
         """
         import re
-
         pat_tag1 = '^<([A-Z]{1,9})>'
         tags = re.findall(pat_tag1, code)
         #print(tags[0])
@@ -59,33 +61,36 @@ class Solution:
             else: content = content.replace(cdata,'')
         
         #print('content: '+ content)
-        def validContent(content):
-            if '<' in content:
-                tags = re.findall(pat_tag1, content)
-                if tags == []: return False
-                count, pos_open, tag = 1, content.find(tag), tags[0]
-                pos = pos_open + 1
-                while pos > 0 and count > 0:
-                    i, j = content.find('<'+tag+'>',pos), content.find('</'+tag+'>',pos)
-                    if i > -1 and (i < j or j == -1): 
-                        count += 1      # find a next open tag
-                        pos = i + 1
-                    elif j > -1 and (j < i or i == -1): 
-                        count -= 1      # find a next closed tag
-                        pos = j + 1
-                    else: pos = -1
-                if count != 0: return False
-                pos_close += (1+len(tag))
-                print('nested: '+content[pos_open:pos_close+1])
-                return validContent(content[:pos_open]) and validContent(isValid(content[pos_open:pos_close+1])) and validContent(content[pos_close+1:])
+        return self.validContent(content)
 
-            else: return True
+    def validContent(self,content):
+        import re
+        if '<' in content:
+            tags = re.findall('<([A-Z]{1,9})>', content)
+            if tags == []: return False
+            #print(tags)
+            count, pos_open, tag = 1, content.find('<'+tags[0]+'>'), tags[0]
+            pos = pos_open + 1
+            while pos > 0 and count > 0:
+                i, j = content.find('<'+tag+'>',pos), content.find('</'+tag+'>',pos)
+                if i > -1 and (i < j or j == -1): 
+                    count += 1      # find a next open tag
+                    pos = i + 1
+                elif j > -1 and (j < i or i == -1): 
+                    count -= 1      # find a next closed tag
+                    pos = j + 1
+                else: pos = -1
+            if count != 0: return False
+            pos_close = pos+1+len(tag)
+            #print('nested: '+content[pos_open:pos_close+1])
+            return self.validContent(content[:pos_open]) and self.isValid(content[pos_open:pos_close+1]) and self.validContent(content[pos_close+1:])       
+        else: return True
 
-        return validContent(content)
 
 
 if __name__ == "__main__":
     c = Solution()
+    
     s = "<DIV>This is the <![CDATA[dfdsad<CDATA>]]>first line <![CDATA[<div>99]]></DIV>"
     print(c.isValid(s))
     s = "<DIV>This is the first line <![CDATA[<div>]]></DIV>"
@@ -106,5 +111,8 @@ if __name__ == "__main__":
     print(c.isValid(s))
     s = "<A><A>/A></A></A>"
     print(c.isValid(s))
+    
+    s = "<A><A>456</A>  <A> 123  !!  <![CDATA[]]>  123 </A>   <A>123</A></A>"
+    print(c.isValid(s))    
 
     
