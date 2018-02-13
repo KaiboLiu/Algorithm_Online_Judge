@@ -7,7 +7,7 @@ for ii in range(1, t + 1):
     n, k = [int(s) for s in input().split(" ")]  # read a list of integers, 2 in this case
     ''' 
     import math
-    i = int(math.log(k,2))      # wrong due to accuracy
+    i = int(math.log(k,2))      # wrong due to precision
     m = 2**i
     '''
     k1, m = k, 1
