@@ -46,6 +46,7 @@ class Solution(object):
             while i < l and nums[i] <= pivot: i += 2
             while j < l and nums[j] >  pivot: j += 2
             if i<l and j<l: nums[i],nums[j] = nums[j],nums[i]
+        print(nums)
         return nums
 
 if __name__ == "__mnums[i]n__":
