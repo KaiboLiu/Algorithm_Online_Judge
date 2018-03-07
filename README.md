@@ -9,3 +9,9 @@ solved 413/ 547 problems so far
 
 ## POJ
 [PKU JudgeOnline](http://poj.org/problemlist)
+
+## HackerRank
+[HackerRank Challenges](https://www.hackerrank.com/domains/algorithms/dynamic-programming)
+
+## CodeJam
+[Google Code Jam](https://code.google.com/codejam)
