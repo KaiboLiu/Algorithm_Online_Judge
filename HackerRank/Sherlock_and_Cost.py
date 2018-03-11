@@ -23,8 +23,12 @@ def cost(arr):
     f = {(0,0):0, (0,1):0}
     n = len(arr)
     for i in range(1,n):
-        f[i,0] = max(f[i-1,1]+abs(1-arr[i-1]), f[i-1,0])
-        f[i,1] = max(f[i-1,1]+abs(arr[i]-arr[i-1]), f[i-1,0]+abs(arr[i]-1))
+#        f[i,0] = max(f[i-1,1]+abs(1-arr[i-1]), f[i-1,0])
+#        f[i,1] = max(f[i-1,1]+abs(arr[i]-arr[i-1]), f[i-1,0]+abs(arr[i]-1))
+        a, b = f[i-1,1]+abs(1-arr[i-1]), f[i-1,0]
+        f[i,0] = max(a,b)
+        a, b = f[i-1,1]+abs(arr[i]-arr[i-1]), f[i-1,0]+abs(arr[i]-1)
+        f[i,1] = max(a,b)
     return max(f[n-1,0], f[n-1,1])
         
 if __name__ == "__main__":
