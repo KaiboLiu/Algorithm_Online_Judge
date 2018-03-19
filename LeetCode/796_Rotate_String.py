@@ -1,5 +1,5 @@
 ## 796_Rotate_String.py
-## 40ms   80.8%
+## 36ms   95.95%
 
 '''
 Total Accepted: 7.4K
@@ -22,6 +22,20 @@ Example 2:
 Input: A = 'abcde', B = 'abced'
 Output: false
 '''
+
+
+
+class Solution:
+    def rotateString(self, A, B):
+
+        if len(A) != len(B): return False
+        if A == B: return True
+        a = A[1:]+A[0]
+        for _ in range(len(A)-1):
+            if a == B: return True
+            a = a[1:]+a[0]
+        return False
+
 
 class Solution:
     def check(self, A, B, i, l):
