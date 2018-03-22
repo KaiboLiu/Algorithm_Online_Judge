@@ -6,7 +6,7 @@ Total Accepted: 24.6K
 Total Submissions: 76.1K
 Instruction: LeetCode 680 - Valid Palindrome II [E]
 Developer: lrushx
-Process Time: Mar 22, 2018
+Process Time: Mar 21, 2018
 '''
 
 '''

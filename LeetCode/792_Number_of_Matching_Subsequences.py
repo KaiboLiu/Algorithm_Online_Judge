@@ -6,7 +6,7 @@ Total Accepted: 3.5K
 Total Submissions: 10.4K
 Instruction: LeetCode 792 - Number of Matching Subsequences [M]
 Developer: lrushx
-Process Time: Mar 22, 2018
+Process Time: Mar 21, 2018
 '''
 
 '''

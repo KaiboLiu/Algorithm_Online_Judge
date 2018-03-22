@@ -2,11 +2,11 @@
 ## 72ms   82.5%
 
 '''
-Total Accepted: 216.3KK
+Total Accepted: 216.3K
 Total Submissions: 803K
 Instruction: LeetCode 125 - Valid Palindrome [E]
 Developer: lrushx
-Process Time: Mar 22, 2018
+Process Time: Mar 21, 2018
 '''
 
 '''
