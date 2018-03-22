@@ -4,7 +4,7 @@
 '''
 Total Accepted: 6.7K
 Total Submissions: 12.9K
-Instruction: LeetCode 784 - Letter Case Permutation [M]
+Instruction: LeetCode 784 - Letter Case Permutation [E]
 Developer: lrushx
 Process Time: Mar 21, 2018
 '''
