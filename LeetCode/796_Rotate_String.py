@@ -11,7 +11,6 @@ Process Time: Mar 18, 2018
 
 '''
 We are given two strings, A and B.
-
 A shift on A consists of taking string A and moving the leftmost character to the rightmost position. For example, if A = 'abcde', then it will be 'bcdea' after one shift on A. Return True if and only if A can become B after some number of shifts on A.
 
 Example 1:
@@ -22,8 +21,6 @@ Example 2:
 Input: A = 'abcde', B = 'abced'
 Output: false
 '''
-
-
 
 class Solution:
     def rotateString(self, A, B):
@@ -36,7 +33,7 @@ class Solution:
             a = a[1:]+a[0]
         return False
 
-
+'''
 class Solution:
     def check(self, A, B, i, l):
         for j in range(1,l-i):
@@ -60,3 +57,4 @@ class Solution:
                 if self.check(A,B,i,l): return True
         return False
         
+'''
