@@ -1,6 +1,6 @@
 #!/bin/python3
 '''
-Instruction: HackerRank - Insertion_Sort_Part2_30.py - [E]
+Instruction: HackerRank - Insertion Sort Part2 - [E]
 Success Rate: %
 Max Score: 30
 Difficulty: Easy 
