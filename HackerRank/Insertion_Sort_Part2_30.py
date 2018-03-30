@@ -10,7 +10,6 @@ Process Time: Mar 28, 2018
 https://www.hackerrank.com/challenges/insertionsort2/problem
 '''
 
-
 import sys
 
 def insertionSort2(n, arr):
