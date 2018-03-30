@@ -1,7 +1,7 @@
 #!/bin/python3
 '''
 Instruction: HackerRank - Big Sorting - [E]
-Success Rate: 63.94%
+Success Rate: 63.92%
 Max Score: 20
 Difficulty: Easy 
 Submitted 35849 times
