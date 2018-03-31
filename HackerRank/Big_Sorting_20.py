@@ -11,7 +11,7 @@ https://www.hackerrank.com/challenges/big-sorting/problem
 '''
 
 ## Sort a list of numbers, whose number of digits can be as large as 10^6
-## just need to construct a tuple (len,s) to sort
+## Just need to construct a tuple (len,s) to sort
 
 
 import sys
@@ -27,6 +27,3 @@ if __name__ == "__main__":
     res = sorted(arr)
     result = [s for _,s in res]
     print ("\n".join(map(str, result)))
-
-
-
