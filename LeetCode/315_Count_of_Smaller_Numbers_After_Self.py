@@ -1,5 +1,5 @@
 ## 315_Count_of_Smaller_Numbers_After_Self.py
-## 212ms   62.74%
+## 120ms   99.02%
 
 '''
 Total Accepted: 45.7K
@@ -24,8 +24,23 @@ Return the array [2, 1, 1, 0].
 '''
 
 
+import bisect
 class Solution:
     def countSmaller(self, nums):
+        
+        """
+        :type nums: List[int]
+        :rtype: List[int]
+        """
+        res, arr = [],[]
+        for x in reversed(nums):
+            idx = bisect.bisect_left(arr,x)
+            arr.insert(idx, x)
+            res.append(idx)
+        return list(reversed(res))
+    
+    
+    def countSmaller2(self, nums):
         """
         :type nums: List[int]
         :rtype: List[int]
