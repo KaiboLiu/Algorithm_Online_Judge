@@ -1,5 +1,5 @@
 //593_Valid_Square.h
-//
+//6ms  99.07%
 //LeetCode Contest 33
 
 
