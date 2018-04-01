@@ -4,7 +4,7 @@
 '''
 Total Accepted: 1.6K
 Total Submissions: 2.3K
-Instruction: LeetCode 811 -  Subdomain Visit Count [E]
+Instruction: LeetCode 811 - Subdomain Visit Count [E]
 Developer: lrushx
 Process Time: Mar 31, 2018
 '''
