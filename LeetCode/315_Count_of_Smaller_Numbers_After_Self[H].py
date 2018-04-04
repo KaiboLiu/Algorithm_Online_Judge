@@ -19,7 +19,9 @@ To the right of 6 there is 1 smaller element (1).
 To the right of 1 there is 0 smaller element.
 Return the array [2, 1, 1, 0].
 '''
-
+## 给一个数组a，统计每个元素右边有多少个比其小的数，等价于inversion，对于每个i，求所有i<j且a[i]>a[j]的j的个数
+## Sol2. CS519给出mergesort中计数的方法，在merge时a,b两个数组中如果a[i]>b[j]要合并b[j]，则a[i]及其往后都和b[j]满足条件，在答案中加上lenA-i即可
+## Sol1. 另一种巧妙的方法，从右往左把a中数字插入一个数组b中并保持排序，则新数可以二分查找bisect_left确定位置pos再insert到b，该数的inversion数即为pos
 
 import bisect
 class Solution:
