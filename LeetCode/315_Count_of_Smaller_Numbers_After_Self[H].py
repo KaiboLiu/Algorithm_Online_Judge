@@ -1,21 +1,18 @@
-## 315_Count_of_Smaller_Numbers_After_Self.py
+## 315_Count_of_Smaller_Numbers_After_Self[H].py
 ## 120ms   99.02%
 
 '''
 Total Accepted: 45.7K
 Total Submissions: 130.6K
-Instruction: LeetCode 315 - Count of Smaller Numbers After Self [H]
 Developer: lrushx
 Process Time: Mar 30, 2018
+https://leetcode.com/problems/count-of-smaller-numbers-after-self/
 '''
 
 '''
 You are given an integer array nums and you have to return a new counts array. The counts array has the property where counts[i] is the number of smaller elements to the right of nums[i].
 
-Example:
-
 Given nums = [5, 2, 6, 1]
-
 To the right of 5 there are 2 smaller elements (2 and 1).
 To the right of 2 there is only 1 smaller element (1).
 To the right of 6 there is 1 smaller element (1).
@@ -26,8 +23,9 @@ Return the array [2, 1, 1, 0].
 
 import bisect
 class Solution:
+    ## Solution1: construct and count with binary search(bisect)
+    ## 120ms   99.02%
     def countSmaller(self, nums):
-        
         """
         :type nums: List[int]
         :rtype: List[int]
@@ -39,12 +37,9 @@ class Solution:
             res.append(idx)
         return list(reversed(res))
     
-    
+    ## Solution2: count within mergesort
+    ## 220ms   60.78%
     def countSmaller2(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: List[int]
-        """
         def mergesort_inv(a):
             if len(a) < 2: return a
             mid   = len(a) // 2
