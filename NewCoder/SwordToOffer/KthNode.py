@@ -19,7 +19,7 @@ class Solution:
         def _kth(root,t):    # root, target is the ith in the subtree of root
             if root is None: return 0, None    # return number of nodes down from root, ith value
             left = _kth(root.left,t)    
-            if left[0]+1 == t: return -2, root.val
+            if left[0]+1 == t: return -2, root
             if left[1] is not None: return -2, left[1]
             right = _kth(root.right,t-left[0]-1)
             if right[1] is not None: return -2, right[1]
@@ -33,20 +33,21 @@ class Solution:
             if root is None: return
             if len(res) >= k: return
             _kth(root.left)
-            res.append(root.val)
+            res.append(root)
             _kth(root.right)
         if pRoot is None or k == 0: return None
         res = []
         _kth(pRoot)
+        print(res)
         return res[k-1] if k <= len(res) else None
 
 l = [8,6,10,5,7,9,11]
 n = [TreeNode(x) for x in l]
 #print([(x.val,x.left,x.right) for x in n])
 for i,x in enumerate(n):
-    if (i+1<<1)-1 < len(l):
+    if (i+1<<1)-1 < len(n):
         x.left = n[(i+1<<1)-1]
-    if (i+1<<1) < len(l):
+    if (i+1<<1) < len(n):
         x.right = n[(i+1<<1)]
 #print([(x.val,x.left,x.right) for x in n])
 s = Solution()
