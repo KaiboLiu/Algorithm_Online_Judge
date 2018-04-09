@@ -1,5 +1,5 @@
 //380_Insert_Delete_GetRandom_O(1).py
-//124ms	74.4%
+//104ms	90.34%
 
 /*
 Total Accepted: 56.1K
@@ -22,6 +22,9 @@ getRandom: Returns a random element from current set of elements. Each element m
 //用vector num[i]储存第i个插入的元素，用unordered_map m作为hash table储存某元素在num中的下标即可，每次数据是否存在用m.find()是否等于m.end()判断，删除时用num最后一个替换被删除的元素再让num pop最后一个即可
 //map的删除元素直接用m.erase(key1)；vector取最后元素可以用v.back()；vector加元素可以用v.emplace_back(val)或者v.push_back(val)
 
+
+from collections import defaultdict
+from random import randint
 class RandomizedSet:
     
     def __init__(self):
@@ -66,7 +69,6 @@ class RandomizedSet:
         Get a random element from the set.
         :rtype: int
         """
-        from random import randint
         return self.a[randint(0,len(self.a)-1)]
         
 
