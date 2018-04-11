@@ -1,4 +1,4 @@
-# 295_Find_Median_from_Data_Stream.h
+# 295_Find_Median_from_Data_Stream.py
 # 152ms	91.01%
 
 '''
@@ -6,7 +6,7 @@ Total Accepted: 38960
 Total Submissions: 154956
 Instruction: LeetCode 295 - Find Median from Data Stream - [H]
 Developer: lrushx
-Process Time: May 01, 2017
+Process Time: Apr 10, 2018
 '''
 
 
