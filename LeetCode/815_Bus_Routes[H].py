@@ -1,5 +1,5 @@
 ## 815_Bus_Routes\[H\].py
-## 592ms   %
+## 512ms   %
 
 '''
 Total Accepted: 1.7K
