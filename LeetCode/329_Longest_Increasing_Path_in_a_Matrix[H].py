@@ -25,10 +25,10 @@ Return 4
 The longest increasing path is [1, 2, 6, 9].
 '''
 
-给一个矩阵，找到上下左右移动递增序列的最大长度
-我的方法是建立从小到大的边，给出节点idx后构成一个DAG，然后用topol执行viterbi算法 524ms/27.98%
-参考方法是dfs+memorize，不用考虑topol结构，直接做竟然更快
-dfs+memorize的速度令人印象深刻，还不用考虑起点
+## 给一个矩阵，找到上下左右移动递增序列的最大长度
+## 我的方法是建立从小到大的边，给出节点idx后构成一个DAG，然后用topol执行viterbi算法 524ms/27.98%
+## 参考方法是dfs+memorize，不用考虑topol结构，直接做竟然更快
+## dfs+memorize的速度令人印象深刻，还不用考虑起点
 
 
 class Solution:
