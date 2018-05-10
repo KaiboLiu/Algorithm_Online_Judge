@@ -5,7 +5,7 @@
 [LeetCode Online Judge](https://leetcode.com)
 
 
-solved 413/ 547 problems so far
+solved 494/ 647 problems so far
 
 ## POJ
 [PKU JudgeOnline](http://poj.org/problemlist)
