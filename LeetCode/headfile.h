@@ -71,6 +71,7 @@
 #include <utility>      //STL 通用模板类
 #include <valarray>      //对包含值的数组的操作
 #include <vector>      //STL 动态数组容器
+#include <unordered_map>
 using namespace std;
 
 /*
