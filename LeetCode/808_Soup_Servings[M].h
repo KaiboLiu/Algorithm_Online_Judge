@@ -1,3 +1,15 @@
+// 808_Soup_Servings[M].h
+// 6ms  %
+
+/*
+Total Accepted: 2K 
+Total Submissions: 6.1K
+Developer: lrushx
+Process Time: May 11, 2018
+https://leetcode.com/problems/soup-servings/description/
+*/
+
+
 class Solution {
 private:
     unordered_map<int, unordered_map<int, double> > store;
