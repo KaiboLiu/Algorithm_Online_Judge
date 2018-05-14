@@ -10,6 +10,10 @@ https://leetcode.com/problems/soup-servings/description/
 */
 
 
+// 有N,N单位的汤，分发给A和B,每次等概率方案为100/0, 75/25, 50/50和25/75，求A先分完的概率
+// 虽然N可以很大，但是N>5000后答案就为1
+// 可以用递归+memo，dfs(A,B,a={})表示各自剩下的量，如果其中一个为0，就按情况返回1/0.5/0，否则就返回a[A,B]，如果a[A,B]还没有，则把4中分法的答案加起来赋值后返回
+
 class Solution {
 private:
     unordered_map<int, unordered_map<int, double> > store;
