@@ -1,5 +1,6 @@
 # https://codejam.withgoogle.com/codejam/contest/4384486/dashboard#s=p2
 # 乘法逆元
+# https://blog.csdn.net/tree__water/article/details/52125030
 
 import sys
 from collections import defaultdict
